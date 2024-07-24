@@ -6,7 +6,77 @@ html {
     font-size: 62.5%;
 }
 
+:root {
+    --main-color: #10375c;
+}
+
 body {
     font-size: 1.6rem;
     font-family: "Sora", sans-serif;
+}
+
+/* Common */
+.container {
+    width: 1170px;
+    max-width: calc(100vh - 48px);
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+.header {
+    min-height: 100vh;
+    background: var(--main-color);
+}
+
+.brand {
+    position: relative;
+    display: inline-flex;
+    font-size: 1rem;
+}
+
+.brand__logo::before,
+.brand__logo::after {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.brand__logo::before {
+    width: 3em;
+    height: 3em;
+    background: #2e80ce;
+}
+
+.brand__logo::after {
+    position: absolute;
+    top: 1.1em;
+    left: 1.1em;
+    width: 1.6em;
+    height: 1.6em;
+    background: #fff;
+}
+
+.brand__name {
+    margin-left: 0.6em;
+    text-align: right;
+    line-height: 1.6em;
+}
+
+.brand__name--text {
+    display: block;
+    color: #fff;
+}
+
+.brand__name--text {
+    font-size: 1.9em;
+    font-weight: 400;
+}
+
+.brand__name--text--small {
+    font-size: 1.2em;
+    font-weight: 300;
 }
