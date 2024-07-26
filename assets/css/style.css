@@ -27,11 +27,17 @@ a {
 }
 
 .btn {
+    --height-btn: 60px;
+
     display: inline-block;
-    width: 60px;
+    height: var(--height-btn);
+    min-width: 205px;
     text-align: center;
+    font-weight: 400;
     border-radius: 999px;
+    color: #fff;
     background: #2e80ce;
+    line-height: var(--height-btn);
 }
 
 /* Header */
@@ -129,16 +135,25 @@ a {
     margin-right: 28px;
 }
 
-.action__btn {
+.action__signup,
+.action__login {
     color: #c9d2da;
     font-size: 1.6rem;
     font-weight: 300;
+}
+
+.action__login {
+    padding: 0 21px;
+    margin-right: 7px;
+}
+
+.action__signup {
     line-height: 44px;
+    color: #fff;
 }
 
 .btn {
-    width: 108px;
+    min-width: 108px;
     height: 44px;
-    color: #fff;
     font-weight: 400;
 }
