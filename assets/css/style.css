@@ -326,3 +326,80 @@ a {
 .services__btn {
     margin-top: 55px;
 }
+
+/* How it works */
+.work {
+    padding: 100px 0;
+    background: #f6fbff;
+}
+
+.work__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.work__desc {
+    margin-top: 18px;
+    width: 468px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.work__list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+}
+
+.work__items {
+    width: 370px;
+    border: 16px solid rgba(234, 246, 255, 1);
+    border-radius: 4px;
+}
+
+.work__items:hover {
+    border: 16px solid rgba(46, 128, 206, 1);
+    cursor: pointer;
+    transform: translateY(-16px);
+}
+
+.work__items:hover .work__items--action {
+    color: #2e80ce;
+    font-weight: 500;
+}
+
+.work__items--wrapper {
+    padding: 42px;
+    border-radius: 4px;
+}
+
+.work__items--caption {
+    margin-top: 18px;
+    color: #10375c;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 1.38;
+}
+
+.work__items--desc {
+    margin-top: 28px;
+    color: #575f66;
+    width: 254px;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
+
+.work__items--action {
+    display: inline-block;
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1.75;
+}
