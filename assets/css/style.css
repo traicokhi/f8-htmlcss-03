@@ -150,12 +150,82 @@ a {
 }
 
 .header-action__signup {
+    text-align: center;
+    font-weight: 400;
+    border-radius: 999px;
+    color: #fff;
+    background: #2e80ce;
     line-height: 44px;
     color: #fff;
 }
 
-.btn {
+.header-action__signup {
     min-width: 108px;
     height: 44px;
     font-weight: 400;
+}
+
+/* Hero */
+.hero {
+    --distance: 330px;
+
+    display: flex;
+    align-items: center;
+    margin-top: calc((var(--distance) / 2) - 40px);
+}
+
+.hero__content {
+    width: 45%;
+}
+
+.hero__heading {
+    width: 517px;
+    color: #fff;
+    font-size: 7rem;
+    font-weight: 600;
+    line-height: 80px;
+    letter-spacing: -1.4px;
+}
+
+.hero__desc {
+    margin-top: 22px;
+    color: #c9d2da;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 30px; /* 166.667% */
+}
+
+.hero__booking {
+    margin-top: 38px;
+}
+
+.hero__calling {
+    margin-left: 38px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.hero__media {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    margin-left: 113px;
+}
+
+.hero__img {
+    object-fit: cover;
+    width: 100%;
+}
+
+.hero__img:first-child {
+    width: 330px;
+    height: 540px;
+    border-radius: 6px;
+}
+
+.hero__img:last-child {
+    width: 210px;
+    height: 410px;
+    border-radius: 0 6px 6px 0;
 }
