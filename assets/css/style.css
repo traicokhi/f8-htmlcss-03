@@ -194,6 +194,8 @@ a {
 }
 
 .hero__booking {
+    display: flex;
+    align-items: center;
     margin-top: 38px;
 }
 
@@ -261,12 +263,14 @@ a {
 
 .services__media {
     width: 49%;
+    height: 570px;
+    flex-shrink: 0;
 }
 
 .services__img {
     object-fit: cover;
-    width: 570px;
-    height: 570px;
+    width: 100%;
+    height: 100%;
     border-radius: 12px;
 }
 
@@ -292,8 +296,6 @@ a {
 }
 
 .services__item--wrapper:hover .services__icon {
-    color: rgba(255, 255, 255, 1);
-    background: #2e80ce;
     box-shadow: 0px 14px 28px 0px rgba(46, 128, 206, 0.2);
 }
 
