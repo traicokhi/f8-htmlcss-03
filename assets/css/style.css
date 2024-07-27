@@ -209,8 +209,8 @@ a {
 .hero__media {
     display: flex;
     align-items: center;
+    justify-content: flex-end;
     width: 55%;
-    margin-left: 113px;
 }
 
 .hero__img {
