@@ -403,3 +403,58 @@ a {
     font-weight: 300;
     line-height: 1.75;
 }
+
+/* About */
+.about {
+    padding: 170px 0;
+}
+.about__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.about__media {
+    position: relative;
+    width: 49%;
+    height: 491px;
+    flex-shrink: 0;
+}
+
+.about__image {
+    object-fit: cover;
+    width: 512px;
+    height: 370px;
+    border-radius: 6px;
+}
+
+.about__image:last-child {
+    position: absolute;
+    top: 121px;
+    right: 0;
+    width: 332px;
+}
+
+.about__content {
+    width: 51%;
+    margin-left: 130px;
+}
+
+.about__heading {
+    color: #10375c;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
+}
+
+.about__desc {
+    margin-top: 18px;
+    color: #575f66;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 1.67;
+}
+
+.about__btn {
+    margin-top: 38px;
+}
