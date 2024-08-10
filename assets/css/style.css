@@ -390,6 +390,11 @@ a {
 .work__items:hover .work__items--action {
     color: #2e80ce;
     font-weight: 500;
+    transition: 300ms ease-in-out;
+}
+
+.work__items--action {
+    transition: 200ms ease-in-out;
 }
 
 .work__items--wrapper {
