@@ -302,10 +302,12 @@ a {
     box-shadow: 0px 14px 28px 0px rgba(46, 128, 206, 0.2);
     color: #fff;
     background: #2e80ce;
+    transition: 300ms ease-in-out;
 }
 
 .services__item--wrapper:hover .services__icon {
     color: #ffffff;
+    transition: 300ms ease-in-out;
 }
 
 .services__item--text {
@@ -370,6 +372,10 @@ a {
     border: 16px solid rgba(46, 128, 206, 1);
     cursor: pointer;
     transform: translateY(-16px);
+    transition: 300ms ease-in-out;
+}
+
+.work__items {
 }
 
 .work__items:hover .work__items--action {
@@ -542,4 +548,39 @@ a {
 
 .change-tab__right .vector {
     rotate: 180deg;
+}
+
+/* Application */
+
+.application {
+    width: 1170px;
+    height: 427px;
+    margin: 265px auto 0;
+    background: #2e80ce;
+}
+
+.app-content {
+    position: relative;
+    display: flex;
+}
+
+.app-media {
+    position: absolute;
+    top: -95px;
+    left: 70px;
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.app-info {
+    margin: auto auto auto 514px;
+    width: 70%;
+}
+
+.app-info__heading {
+    color: #fff;
+    font-size: 5rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -1px;
 }
