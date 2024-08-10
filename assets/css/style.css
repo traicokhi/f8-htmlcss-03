@@ -305,9 +305,17 @@ a {
     transition: 300ms ease-in-out;
 }
 
+.services__icon--wrapper {
+    transition: 150ms ease-in-out;
+}
+
 .services__item--wrapper:hover .services__icon {
     color: #ffffff;
     transition: 300ms ease-in-out;
+}
+
+.services__icon {
+    transition: 150ms ease-in-out;
 }
 
 .services__item--text {
@@ -376,6 +384,7 @@ a {
 }
 
 .work__items {
+    transition: 200ms ease-in-out;
 }
 
 .work__items:hover .work__items--action {
