@@ -302,7 +302,6 @@ a {
     box-shadow: 0px 14px 28px 0px rgba(46, 128, 206, 0.2);
     color: #fff;
     background: #2e80ce;
-    transition: 300ms ease-in-out;
 }
 
 .services__icon--wrapper {
@@ -311,11 +310,10 @@ a {
 
 .services__item--wrapper:hover .services__icon {
     color: #ffffff;
-    transition: 300ms ease-in-out;
 }
 
 .services__icon {
-    transition: 150ms ease-in-out;
+    transition: 300ms ease-in-out;
 }
 
 .services__item--text {
@@ -374,27 +372,19 @@ a {
     width: 370px;
     border: 16px solid rgba(234, 246, 255, 1);
     border-radius: 4px;
+    transition: 300ms ease-in-out;
 }
 
 .work__items:hover {
     border: 16px solid rgba(46, 128, 206, 1);
     cursor: pointer;
     transform: translateY(-16px);
-    transition: 300ms ease-in-out;
-}
-
-.work__items {
-    transition: 200ms ease-in-out;
 }
 
 .work__items:hover .work__items--action {
     color: #2e80ce;
     font-weight: 500;
     transition: 300ms ease-in-out;
-}
-
-.work__items--action {
-    transition: 200ms ease-in-out;
 }
 
 .work__items--wrapper {
